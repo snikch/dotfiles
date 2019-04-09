@@ -1,0 +1,55 @@
+#!/bin/sh
+brew tap josegonzalez/php
+
+# Casks
+brew cask install calibre
+brew cask install sequel-pro
+brew cask install slack
+brew cask install spotify
+brew cask install alfred
+brew cask install handbrake
+brew cask install macvim
+brew cask install skype
+brew cask install spectacle
+brew cask install steam
+brew cask install discord
+brew cask install spark
+brew cask install caffeine
+brew cask install visual-studio-code
+brew cask install docker
+brew cask install tunnelblick
+brew cask install vlc
+brew cask install twitter
+brew cask install iterm2
+brew cask install karabiner-elements
+
+# Languages
+brew install nvm
+brew install go
+brew install python
+brew install php72 php70-mcrypt
+brew install maven
+
+# Platforms
+brew install heroku awscli awsebcli
+
+# Libraries
+brew install libtool libusb protobuf libyaml openssl libevent libidn libmpc xz zlib grc
+
+# Video / Image
+brew install faac ffmpeg lame xvid jpeg imagemagick libpng libtiff gifsicle rtmpdump x264
+
+# File Management
+brew install ack the_silver_searcher
+
+# Font
+brew install fontforge freetype fontconfig
+
+# Shell
+brew install zsh readline reattach-to-user-namespace curl curl-ca-bundle wget gawk pv mobile-shell tmux ttyrec terminal-notifier htop ctop
+
+# Servers
+brew install redis sqlite kafkacat
+
+# Misc
+brew install hugo gpg-agent

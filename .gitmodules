@@ -1,0 +1,63 @@
+[submodule "vim/bundle/numberss"]
+	path = vim/bundle/numberss
+	url = https://github.com/myusuf3/numbers.vim.git
+[submodule "vim/bundle/surround"]
+	path = vim/bundle/surround
+	url = git://github.com/tpope/vim-surround.git
+[submodule "vim/bundle/repeat"]
+	path = vim/bundle/repeat
+	url = git://github.com/tpope/vim-repeat.git
+[submodule "vim/bundle/abolish"]
+	path = vim/bundle/abolish
+	url = git://github.com/tpope/vim-abolish.git
+[submodule "vim/bundle/you-complete-me"]
+	path = vim/bundle/you-complete-me
+	url = git://github.com/Valloric/YouCompleteMe.git
+[submodule "vim/bundle/supertab"]
+	path = vim/bundle/supertab
+	url = git://github.com/ervandew/supertab.git
+[submodule "vim/bundle/ctrlp.vim"]
+	path = vim/bundle/ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim.git
+[submodule "vim/bundle/syntastic"]
+	path = vim/bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+[submodule "vim/bundle/delimitMate"]
+	path = vim/bundle/delimitMate
+	url = https://github.com/Raimondi/delimitMate.git
+[submodule "vim/bundle/tern"]
+	path = vim/bundle/tern
+	url = https://github.com/marijnh/tern_for_vim.git
+[submodule "vim/bundle/php-cs-fixer"]
+	path = vim/bundle/php-cs-fixer
+	url = https://github.com/stephpy/vim-php-cs-fixer.git
+[submodule "vim/bundle/phpunitqf"]
+	path = vim/bundle/phpunitqf
+	url = https://github.com/joonty/vim-phpunitqf.git
+[submodule "vim/bundle/fugitive"]
+	path = vim/bundle/fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "vim/bundle/AsyncCommand"]
+	path = vim/bundle/AsyncCommand
+	url = https://github.com/pydave/AsyncCommand.git
+[submodule "vim/bundle/Dockerfile"]
+	path = vim/bundle/Dockerfile
+	url = https://github.com/ekalinin/Dockerfile.vim.git
+[submodule "zsh/vendor/powerline-zsh"]
+	path = zsh/vendor/powerline-zsh
+	url = https://github.com/carlcarl/powerline-zsh
+[submodule "vim/bundle/vim-airline"]
+	path = vim/bundle/vim-airline
+	url = https://github.com/bling/vim-airline
+[submodule "zsh/vendor/zsh-syntax-highlighting"]
+	path = zsh/vendor/zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
+[submodule "zsh/vendor/zsh-autosuggestions"]
+	path = zsh/vendor/zsh-autosuggestions
+	url = https://github.com/tarruda/zsh-autosuggestions.git
+[submodule "vim/bundle/vim-go"]
+	path = vim/bundle/vim-go
+	url = https://github.com/fatih/vim-go.git
+[submodule "vim/bundle/vimshell"]
+	path = vim/bundle/vimshell
+	url = git@github.com:Shougo/vimshell.vim.git
