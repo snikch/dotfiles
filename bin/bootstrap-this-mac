@@ -3,6 +3,5 @@
 # Curl insecure to get the cert to be able to curl. yep.
 #curl -i https://curl.haxx.se/ca/cacert.pem > //usr/local/share/ca-bundle.crt
 brew update
-set HOMEBREW_NO_AUTO_UPDATE=1 
 brew-bootstrap
 osx

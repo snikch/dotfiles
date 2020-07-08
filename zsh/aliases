@@ -98,8 +98,13 @@ alias sp='bx rspec'
 alias spf='bx rspec --fail-fast'
 alias rake='noglob rake'
 
-# Random Facts
+# Random Stuff
 alias fact="elinks -dump randomfunfacts.com | sed -n '/^| /p' | tr -d \| | sed -e 's/^ //' && echo '=============================='"
+alias weather="curl wttr.in"
 
 #Tmux
 alias tmux="TERM=screen-256color-bce tmux"
+
+# The Fuck
+eval $(thefuck --alias)
+
