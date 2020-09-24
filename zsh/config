@@ -4,7 +4,7 @@
 #  export PS1='%3~$(git_info_for_prompt)%# '
 #fi
 
-export PATH="$HOME/bin:$HOME/.bin:/usr/local/homebrew/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/git/bin:$PATH"
+export PATH="$HOME/bin:$HOME/.bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/git/bin:$PATH"
 export MANPATH="/usr/local/man:/usr/local/mysql/man:/usr/local/git/man:$MANPATH"
 export LANG='en_US.UTF-8'
 
@@ -112,13 +112,10 @@ export GPG_TTY=$(tty)
 
 # NVM setup
 export NVM_DIR="$HOME/.nvm"
-[ -s "/usr/local/homebrew/opt/nvm/nvm.sh" ] && . "/usr/local/homebrew/opt/nvm/nvm.sh"  # This loads nvm
-[ -s "/usr/local/homebrew/opt/nvm/etc/bash_completion" ] && . "/usr/local/homebrew/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 # This slows new tabs down pretty bad :(
 #source $(brew --prefix nvm)/nvm.sh
-
-# Adds chruby to the path
-source /usr/local/homebrew/opt/chruby/share/chruby/chruby.sh
 
 # Enable go modules support for vend repos
 export GOPRIVATE=github.com/vend/*

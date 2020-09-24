@@ -54,7 +54,6 @@ alias grm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
 alias changelog='git log `git log -1 --format=%H -- CHANGELOG*`..; cat CHANGELOG*'
 alias gpp='fact && git pull && git push'
 alias gppp='fact && git pull --rebase && git push'
-alias gpu="$(git push 2>&1 | tail -n 2 | head -n 1)"
 
 # ls
 alias ls="ls -F"
@@ -85,7 +84,6 @@ alias rag='bundle exec rails g'
 alias ragm='bundle exec rails g model'
 alias a='autotest -rails'
 alias tlog='tail -f log/development.log'
-alias scaffold='script/generate nifty_scaffold'
 alias migrate='bundle exec rake db:migrate db:test:prepare'
 alias rst='touch tmp/restart.txt'
 alias bx='bundle exec'
@@ -93,7 +91,6 @@ alias br='bundle exec rspec'
 alias rk='bundle exec rake'
 alias rg='bundle exec rake routes | grep'
 alias bi='bundle install'
-alias rails_forward='ssh -f -N rails'
 alias sp='bx rspec'
 alias spf='bx rspec --fail-fast'
 alias rake='noglob rake'

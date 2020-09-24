@@ -1,42 +1,39 @@
 #!/bin/sh
 export HOMEBREW_NO_AUTO_UPDATE=1
-brew tap josegonzalez/php
 brew tap heroku/brew 
+
+brew install mas
 
 
 # Casks
 brew cask install \
     alfred \
+	authy \
     aws-vault \
     calibre \
-    discord \
     docker \
-    handbrake \
     iterm2 \
+	goland \
     karabiner-elements \
-	rocket \
     sensiblesidebuttons \
-    sequel-pro \
+    sequel-ace \
     slack \
     spectacle \
     spotify \
     steam \
-    spark \
     tunnelblick \
     visual-studio-code \
     vlc
 
 # Not Casks
 brew install \
-    nvm \
     go \
-    python \
-    awscli awsebcli \
-    libtool libusb protobuf libyaml openssl libevent libidn libmpc xz zlib grc \
+    awscli \
+    libtool libusb protobuf libyaml openssl libevent libidn libmpc xz zlib grc jq \
     faac ffmpeg lame xvid jpeg imagemagick libpng libtiff gifsicle rtmpdump x264 \
-    ack the_silver_searcher \
-    fontforge freetype fontconfig \
+    the_silver_searcher \
     zsh readline reattach-to-user-namespace curl wget pv mobile-shell tmux ttyrec terminal-notifier htop ctop thefuck \
     redis sqlite kafkacat \
-    hugo gnupg elinks \
+    gnupg elinks \
 	heroku
+    #fontforge freetype fontconfig \

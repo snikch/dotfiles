@@ -1,17 +1,17 @@
 case $1 in
 		services-engineer)
-				aws-vault exec --session-ttl=8h services-engineer -- ${@:2}
+				aws-vault exec services-engineer -- ${@:2}
 		;;
 		privileged)
-				aws-vault exec --session-ttl=4h privileged-admin -- ${@:2}
+				aws-vault exec privileged-admin -- ${@:2}
 		;;
 		daily)
-				aws-vault exec --session-ttl=4h daily-admin -- ${@:2}
+				aws-vault exec daily-admin -- ${@:2}
 		;;
 		break-glass)
-				aws-vault exec --session-ttl=1h break-glass-admin -- ${@:2}
+				aws-vault exec break-glass-admin -- ${@:2}
 		;;
 		*)
-				aws-vault exec --session-ttl=8h assume-only -- $@
+				aws-vault exec assume-only -- $@
 		;;
 esac

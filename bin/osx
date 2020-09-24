@@ -63,7 +63,7 @@ defaults write com.apple.dock launchanim -bool false
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
 # Set a blazingly fast keyboard repeat rate
-defaults write NSGlobalDomain KeyRepeat -int 10
+defaults write NSGlobalDomain KeyRepeat -int 2
 
 # Disable auto-correct
 #defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
@@ -156,5 +156,6 @@ chflags nohidden ~/Library
 #file=/Applications/Dropbox.app/Contents/Resources/check.icns
 #[ -e "$file" ] && mv -f "$file" "$file.bak"
 #unset file
+defaults write com.googlecode.iterm2 HotkeyTermAnimationDuration -float 0.05
 
 # Kill affected applications
