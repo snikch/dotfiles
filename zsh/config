@@ -117,5 +117,8 @@ export NVM_DIR="$HOME/.nvm"
 # This slows new tabs down pretty bad :(
 #source $(brew --prefix nvm)/nvm.sh
 
-# Enable go modules support for vend repos
-export GOPRIVATE=github.com/vend/*
+# Enable go modules support for inmusic repos
+export GOPRIVATE=gitlab.inmusicbrands.com/*
+
+# Temporary fix until https://github.com/nvbn/thefuck/milestone/2
+export THEFUCK_PRIORITY="git_hook_bypass=1100"

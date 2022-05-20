@@ -18,3 +18,5 @@ export PATH="/usr/local/homebrew/opt/curl/bin:$PATH"
 
 plugins=(docker docker-compose)
 
+eval "$(rbenv init -)"
+export PATH="~/.rbenv/shims:$PATH"

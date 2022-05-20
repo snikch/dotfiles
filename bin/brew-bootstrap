@@ -35,5 +35,6 @@ brew install \
     zsh readline reattach-to-user-namespace curl wget pv mobile-shell tmux ttyrec terminal-notifier htop ctop thefuck \
     redis sqlite kafkacat \
     gnupg elinks \
+	clang-format \
 	heroku
     #fontforge freetype fontconfig \

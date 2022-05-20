@@ -16,3 +16,4 @@ export SSL_CERT_FILE=/usr/local/share/ca-bundle.crt
 
 
 [[ -s "/Users/mal/.gvm/scripts/gvm" ]] && source "/Users/mal/.gvm/scripts/gvm"
+source "$HOME/.cargo/env"
