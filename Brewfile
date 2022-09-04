@@ -137,3 +137,20 @@ cask "virtualbox"
 cask "visual-studio-code"
 cask "vlc"
 cask "wombat"
+mas "Amphetamine", id: 937984704
+mas "Clocker", id: 1056643111
+mas "ColorSlurp", id: 1287239339
+mas "GIF Brewery 3", id: 1081413713
+mas "iMovie", id: 408981434
+mas "Kindle", id: 405399194
+mas "Mactracker", id: 430255202
+mas "Messenger", id: 1480068668
+mas "Microsoft Excel", id: 462058435
+mas "Microsoft OneNote", id: 784801555
+mas "Microsoft PowerPoint", id: 462062816
+mas "Microsoft Remote Desktop", id: 1295203466
+mas "Microsoft Word", id: 462054704
+mas "OneDrive", id: 823766827
+mas "Spark", id: 1176895641
+mas "WireGuard", id: 1451685025
+mas "Xcode", id: 497799835
