@@ -1,18 +1,13 @@
 #!/bin/sh
 export HOMEBREW_NO_AUTO_UPDATE=1
 
-# Casks
-brew cask install \
+brew install \
     1password 1password-cli \
-    amphetamine aws-vault \
+    amphetamine awscli aws-vault \
     balenaetcher \
     cursor \
     figma \
     orbstack \
     postman \
     sensiblesidebuttons sequel-ace slack spark spectacle spotify \
-    the-unarchiver
-
-# Not Casks
-brew install \
-    awscli
+    tailscale the-unarchiver

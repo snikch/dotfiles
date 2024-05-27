@@ -1,5 +1,6 @@
 #!/bin/sh
 
+export PATH=$PATH:$HOME/.dotfiles/bin
 brew update
 brew-bootstrap
 osx
