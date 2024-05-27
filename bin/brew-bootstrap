@@ -1,40 +1,18 @@
 #!/bin/sh
 export HOMEBREW_NO_AUTO_UPDATE=1
-brew tap heroku/brew 
-
-brew install mas
-
 
 # Casks
 brew cask install \
-    alfred \
-	authy \
-    aws-vault \
-    calibre \
-    docker \
-    iterm2 \
-	goland \
-    karabiner-elements \
-    sensiblesidebuttons \
-    sequel-ace \
-    slack \
-    spectacle \
-    spotify \
-    steam \
-    tunnelblick \
-    visual-studio-code \
-    vlc
+    1password 1password-cli \
+    amphetamine aws-vault \
+    balenaetcher \
+    cursor \
+    figma \
+    orbstack \
+    postman \
+    sensiblesidebuttons sequel-ace slack spark spectacle spotify \
+    the-unarchiver
 
 # Not Casks
 brew install \
-    go \
-    awscli \
-    libtool libusb protobuf libyaml openssl libevent libidn libmpc xz zlib grc jq \
-    faac ffmpeg lame xvid jpeg imagemagick libpng libtiff gifsicle rtmpdump x264 \
-    the_silver_searcher \
-    zsh readline reattach-to-user-namespace curl wget pv mobile-shell tmux ttyrec terminal-notifier htop ctop thefuck \
-    redis sqlite kafkacat \
-    gnupg elinks \
-	clang-format \
-	heroku
-    #fontforge freetype fontconfig \
+    awscli
